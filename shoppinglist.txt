@@ -1,5 +1,0 @@
-apple
-oranges
-grapes
-cherries
-cereal
