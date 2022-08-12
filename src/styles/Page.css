@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+:root{
+    --hotpink: rgb(214, 40, 121);
+    --darkgray: #1b2326;
+}
+
+html{
+    font-family: PT Sans, Arial, Tahoma, sans-serif;
+    height:100%;
+}
+/* body{
+
+} */
+
+
+
+/* 
+
+main{
+
+
+}
+
+
+article{
+
+
+}
+ */
+
+
+/* .logo{
+
+}
+ */
+
+
+
+ 
+
+
+header{
+    display: flex; justify-content: space-between; align-items: center;
+    height: 70px; margin: 0 0 25px;
+    background-color: var(--darkgray);
+    padding: 0px 25px;
+}
+.navbar{
+    display:flex; justify-content: center; align-items: center; padding: 0 24px;
+    
+}
+
+.navitem{
+    color: white; text-decoration: none;
+    font-size: 18px; font-weight:bold; 
+    padding: 10px; margin: 0 10px;
+    text-shadow:0 1px 0 rgb(0, 0, 0), 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+ .active{
+    color:var(--hotpink);
+}
+
+.login_box{
+    padding: 10px 5px; 
+    border: 2px rgba(255, 255, 255, 0.651) solid; border-radius: 30px;
+}
+
+
+.login_box a{
+    color: white;text-decoration: none;
+    font-weight: 700; font-size: 15px;
+}
+
+
+
+
+/* FOOTER */
+footer{
+color:white;
+background-color: rgba(0, 0, 0, 0.541);
+border-top: rgba(128, 128, 128, 0.281) 1px solid;
+margin-top: 5rem;
+}
+
+.footer-container{
+    display: flex; justify-content: space-between; align-items: flex-start; 
+}
+
+.footer-column{
+    display:flex; flex-direction:column; align-items: flex-start;
+    margin:10px;
+}
+
+ul{
+    list-style-type: none;
+}
+.footer-column ul li a {
+    text-decoration: none; color:white; 
+}
