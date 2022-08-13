@@ -43,40 +43,45 @@ function Page(){
                    
                     <div className="footer-column">
                         <h4>Principal</h4>
-                        <ul>
-                            <li><a href="/#">Tendencias</a></li>
-                            <li><a href="/#">Barmanes</a></li>
-                            <li><a href="/#">Cocteles</a></li>
-                            <li><a href="/#">Ingredientes</a></li>
-                        </ul>
+                        
+                        <a href="/#">Tendencias</a>
+                        <a href="/#">Barmanes</a>
+                        <a href="/#">Cocteles</a>
+                        <a href="/#">Ingredientes</a>
+                        
                     </div>
                     <div className="footer-column">
                         <h4>Util</h4>
-                        <ul>
-                            <li><a href="/#">Calculadora de fiestas</a></li>
-                            <li><a href="/#">Colecciones de cocteles</a></li>
-                            <li><a href="/#">Estrellas</a></li>
-                        </ul>
+                        <a href="/#">Calculadora de fiestas</a>
+                        <a href="/#">Colecciones de cocteles</a>
+                        <a href="/#">Estrellas</a>
+                        
                     </div>
                     <div className="footer-column">
                         <h4>Inkshaker</h4>
-                        <ul>
-                            <li><a href="/#">Sobre nosotros</a></li>
-                            <li><a href="/#">Contactos</a></li>
-                        </ul>
+                        
+                            <a href="/#">Sobre nosotros</a>
+                            <a href="/#">Contactos</a>
+                        
                     </div>
-                    <div className="footer-column">
+                    <div className="languages" >
+                        <div className="footer-column">
                         <h4>Cambiar idioma</h4>
-                        <ul>
-                            <li><a href="/#">English UK</a></li>
-                            <li><a href="/#">Deutsch</a></li>
-                            <li><a href="/#">Español</a></li>
-                            <li><a href="/#">English US</a></li>
-                            <li><a href="/#">Francais</a></li>
-                            <li><a href="/#">Українська</a></li>
-                            <li><a href="/#">Русский</a></li>
-                            <li><a href="/#">Italiano</a></li>
-                        </ul>
+                        
+                            <a href="/#">English UK</a>
+                            <a href="/#">Deutsch</a>
+                            <a href="/#">Español</a>
+                            <a href="/#">English US</a>
+                            </div>
+
+                            <div className='footer-column'>
+                            <a href="/#">Francais</a>
+                            <a href="/#">Українська</a>
+                            <a href="/#">Русский</a>
+                            <a href="/#">Italiano</a>
+                            </div>
+                            
+                        
                     </div>
                   
                     <div className="footer-column">
@@ -86,11 +91,13 @@ function Page(){
                     </div>
                     
                 </div>
-                {/* barrita mistica */} <hr/>
-                <div className='footer-container'><p>Inkshaker.com 2022</p>
-                <span></span> <h1>21+</h1></div>
-                {/* inkashaker.com 2022 */}
+
+              
+                <div className='footer-bottom'><p>Inkshaker.com 2022</p>
+                <span></span> <h2>21+</h2></div>
+                
             </footer>
+
         </body>
     );
 }
