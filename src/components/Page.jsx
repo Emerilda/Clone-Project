@@ -75,6 +75,7 @@ function Page(){
                             </div>
 
                             <div className='footer-column'>
+                            <div className='empty'></div>
                             <a href="/#">Francais</a>
                             <a href="/#">Українська</a>
                             <a href="/#">Русский</a>
@@ -93,8 +94,8 @@ function Page(){
                 </div>
 
               
-                <div className='footer-bottom'><p>Inkshaker.com 2022</p>
-                <span></span> <h2>21+</h2></div>
+                <div className='footer-bottom'><p>©Inkshaker.com 2022</p>
+                 <h2>21+</h2></div>
                 
             </footer>
 
