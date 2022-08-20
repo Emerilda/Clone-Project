@@ -1,0 +1,8 @@
+ACA PONGO LAS COSAS QUE HAY QUE ARREGLAR EVENTUALMENTE PARA HACER EL BUILD
+Q TIENEN QUE SER DE BAJA PRIORIDAD O ME ROMPO LA CAESA :D
+
+
+1. El renderizado de las letras es distinto. y no se pq. Es la misma fuente y mismo font-size.}
+
+
+2. Hacer responsivve la poronga porque me molesta demasiado que los elementos no se ajusten cuando cambia el tamaño

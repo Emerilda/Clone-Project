@@ -3,6 +3,11 @@ import React from 'react';
 import '../styles/Page.css'
 import Logo from '../assets/logo.svg';
 import { GoSearch } from 'react-icons/go';
+import Tendencias from './Tendencias.js';
+import Barmanes from './Barmanes.js';
+import Cocteles from './Cocteles.js';
+import Ingredientes from './Ingredientes.js';
+import {Route, Routes, Link} from 'react-router-dom';
 
 
 function Page(){
@@ -12,14 +17,20 @@ function Page(){
                 {/* logo */}
                 <div className='logo'><img height="26px" src={Logo} alt="Logo de Inshaker"/></div>
                 {/* navbar */}
-                
                 <div className="navbar">
                     <a className='navitem active' href="_blank"> Tendencias </a>
                     <a className='navitem' href="_blank"> Bármanes </a>
                     <a className='navitem' href="_blank"> Cócteles </a>
                     <a className='navitem' href="_blank"> Ingredientes </a>
+                    <Link to="/">Tendencias</Link>
+                    <Link to="/barmanes">Bármanes</Link>
+                    <Link to="/cocteles"> Cócteles</Link>
+                    <Link to="/ingredientes">Ingredientes</Link>
+                    
+                    
+                    
                      {/* search */}
-                    <a href="_blank" style={{color: "white", fontSize:'20px'}} ><GoSearch/></a>
+                    <a href="_blank" style={{color: "white", fontSize:'27px'}} ><GoSearch/></a>
                 </div>
                
                 {/* iniciar sesion */}
@@ -28,12 +39,20 @@ function Page(){
                 </div>
             </header>
 
+            <div className="search-container">
+                <form className='search-form'>
+                <div className='searchbar'>
+                    <input autocomplete="off" size="50" className='search-input' name="q" placeholder="Academy Search"></input>
+                </div>
+                <div className="subheader">
+                    <div className="article-button submenu-item active">Todas las tendencias </div>
+                    <div className="article-button submenu-item">Conocimiento </div>
+                </div>
 
+                </form>
+            </div>
             <main>
-                <div className='searchsection'>SEARCH</div>
-                <article>
-                    <p>TREND BADGE TEMPLATE</p>
-                </article>
+                
 
             </main>
 
